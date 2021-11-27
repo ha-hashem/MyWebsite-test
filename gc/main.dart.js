@@ -58722,7 +58722,7 @@ CS(){this.aX(new F.a40(this))},
 r_(){var s=0,r=P.Z(t.N),q,p,o,n
 var $async$r_=P.V(function(a,b){if(a===1)return P.W(b,r)
 while(true)switch(s){case 0:s=3
-return P.a5(G.atx(P.arh("http","hahashem.pythonanywhere.com","/",null)),$async$r_)
+return P.a5(G.atx(P.arh("https","hahashem.pythonanywhere.com","/",null)),$async$r_)
 case 3:o=b
 n=o.b
 if(n===200)p=P.mW(J.aU(t.a.a(C.b1.It(0,B.atm(U.arF(o.e).c.a.h(0,"charset")).dh(0,o.x),null)),"price"))
