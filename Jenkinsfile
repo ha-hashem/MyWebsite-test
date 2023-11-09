@@ -29,7 +29,7 @@ pipeline {
                                         sourceFiles: 'dist/MyWebsite.zip',
                                         removePrefix: 'dist/',
                                         remoteDirectory: '/tmp',
-                                        execCommand: 'sudo rm -rf /var/www/html/* && sudo unzip /tmp/MyWebsite.zip -d /var/www/html'
+                                        execCommand: 'rm -rf /var/www/html/* && unzip /tmp/MyWebsite.zip -d /var/www/html'
                                     )
                                 ]
                             )
@@ -61,7 +61,7 @@ pipeline {
                                         sourceFiles: 'dist/MyWebsite.zip',
                                         removePrefix: 'dist/',
                                         remoteDirectory: '/tmp',
-                                        execCommand: 'sudo rm -rf /var/www/html/* && sudo unzip /tmp/MyWebsite.zip -d /var/www/html'
+                                        execCommand: 'rm -rf /var/www/html/* && unzip /tmp/MyWebsite.zip -d /var/www/html'
                                     )
                                 ]
                             )
