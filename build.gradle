@@ -1,0 +1,13 @@
+task zip(type: Zip) {
+  from ('.') {
+    include "*"
+    include "css/**"
+    include "gc/**"
+  }
+  destinationDir(file("dist"))
+  baseName "MyWebsite"
+}
+
+task build
+
+build.dependsOn zip
